@@ -96,9 +96,6 @@ export default function ProductCard({ product }: ProductCardProps) {
             tgddUrl={product.retailerLinks.tgdd}
           />
         </div>
-        <p className="mt-2 text-center text-xs leading-5 text-hyper-muted">
-          Mở trang đại lý để kiểm tra giá, tồn kho và ưu đãi hiện tại.
-        </p>
       </div>
     </article>
   );
