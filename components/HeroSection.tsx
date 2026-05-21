@@ -1,6 +1,8 @@
 import { ArrowRight, BadgeCheck, MousePointer2 } from "lucide-react";
 
 export default function HeroSection() {
+  const basePath = process.env.NEXT_PUBLIC_BASE_PATH ?? "";
+
   return (
     <section id="top" className="bg-white pb-16 pt-10 sm:pb-20 lg:pt-16">
       <div className="section-container grid items-center gap-10 lg:grid-cols-[1.02fr_0.98fr]">
@@ -45,7 +47,7 @@ export default function HeroSection() {
           </div>
           <div className="overflow-hidden rounded-[32px] border border-hyper-border bg-hyper-soft shadow-soft">
             <img
-              src="/images/hyperwork-office-banner.png"
+              src={`${basePath}/images/hyperwork-office-banner.png`}
               alt="Bộ bàn phím và chuột HyperWork trong góc làm việc hiện đại"
               className="aspect-[16/10] w-full object-cover"
             />
