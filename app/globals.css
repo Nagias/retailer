@@ -19,6 +19,8 @@ body {
   margin: 0;
   color: #111111;
   background: #ffffff;
+  font-family: "SVN-Jakarta", "SVN Jakarta", "Plus Jakarta Sans", Arial,
+    sans-serif;
 }
 
 button,
