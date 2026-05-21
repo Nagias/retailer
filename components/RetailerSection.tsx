@@ -6,7 +6,7 @@ const retailers = [
   {
     title: "FPT Shop",
     description:
-      "Phù hợp nếu bạn quen mua phụ kiện công nghệ tại FPT Shop, muốn kiểm tra sản phẩm, ưu đãi và chính sách giao hàng theo thời điểm.",
+      "Mở trang FPT Shop để kiểm tra giá, ưu đãi, tồn kho và lựa chọn giao hàng tại thời điểm mua.",
     cta: "Xem HyperWork tại FPT Shop",
     href: buildFptSearchUrl(""),
     className:
@@ -15,7 +15,7 @@ const retailers = [
   {
     title: "Thế Giới Di Động",
     description:
-      "Phù hợp nếu bạn muốn kiểm tra nhanh giá, tồn kho, giao hàng hoặc cửa hàng gần bạn trong hệ thống Thế Giới Di Động.",
+      "Mở trang Thế Giới Di Động để xem giá, tồn kho, giao hàng hoặc cửa hàng gần bạn.",
     cta: "Xem HyperWork tại TGDĐ",
     href: buildTgddSearchUrl(""),
     className:
@@ -59,9 +59,8 @@ export default function RetailerSection() {
           ))}
         </div>
         <p className="mt-7 rounded-3xl border border-hyper-border bg-white p-5 text-sm leading-6 text-hyper-muted">
-          Giá bán, tồn kho, khuyến mãi và chính sách giao hàng có thể thay đổi
-          theo từng đại lý. Vui lòng kiểm tra thông tin cuối cùng tại FPT Shop
-          hoặc Thế Giới Di Động trước khi mua.
+          Giá, tồn kho, khuyến mãi và giao hàng có thể thay đổi theo từng đại lý.
+          Vui lòng kiểm tra thông tin cuối cùng trước khi mua.
         </p>
       </div>
     </section>

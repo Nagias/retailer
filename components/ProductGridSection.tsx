@@ -1,5 +1,6 @@
 "use client";
 
+import { BadgeCheck, ExternalLink, SearchCheck } from "lucide-react";
 import { useEffect, useMemo, useState } from "react";
 import SectionHeading from "@/components/SectionHeading";
 import ProductCard from "@/components/ProductCard";
@@ -16,6 +17,21 @@ const filters: { key: FilterKey; label: string }[] = [
   { key: "setup", label: "Setup gọn" },
   { key: "mobile", label: "Di động" },
   { key: "performance", label: "Hiệu suất cao" }
+];
+
+const trustItems = [
+  {
+    icon: ExternalLink,
+    label: "Link đúng trang sản phẩm"
+  },
+  {
+    icon: BadgeCheck,
+    label: "Mở tại đại lý chính thức"
+  },
+  {
+    icon: SearchCheck,
+    label: "Kiểm tra giá & tồn kho tại đại lý"
+  }
 ];
 
 export default function ProductGridSection() {
@@ -71,6 +87,21 @@ export default function ProductGridSection() {
               </button>
             ))}
           </div>
+        </div>
+        <div className="mt-8 grid gap-3 rounded-[28px] border border-hyper-border bg-white p-4 sm:grid-cols-3">
+          {trustItems.map((item) => {
+            const Icon = item.icon;
+            return (
+              <div key={item.label} className="flex items-center gap-3">
+                <span className="flex h-9 w-9 shrink-0 items-center justify-center rounded-full bg-hyper-orange/10 text-hyper-orange">
+                  <Icon size={18} aria-hidden="true" />
+                </span>
+                <span className="text-sm font-medium text-hyper-text">
+                  {item.label}
+                </span>
+              </div>
+            );
+          })}
         </div>
         <div className="mt-10 grid gap-6 md:grid-cols-2 xl:grid-cols-3">
           {products.map((product) => (

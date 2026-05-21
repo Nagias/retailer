@@ -6,34 +6,29 @@ import SectionHeading from "@/components/SectionHeading";
 
 const faqs = [
   {
-    question: "Tôi mua sản phẩm HyperWork ở đâu?",
+    question: "Tôi mua HyperWork ở đâu?",
     answer:
-      "Bạn có thể bấm nút FPT Shop hoặc Thế Giới Di Động trên từng sản phẩm để mở đúng trang bán hàng của đại lý."
+      "Bấm nút đại lý trên từng sản phẩm để mở đúng trang bán hàng tại FPT Shop hoặc Thế Giới Di Động."
   },
   {
-    question: "Vì sao một số sản phẩm chỉ có một nút đại lý?",
+    question: "Giá và tồn kho xem ở đâu?",
     answer:
-      "Nút mua chỉ hiển thị khi sản phẩm có link đại lý chính xác. Nếu chưa có link tại FPT Shop hoặc Thế Giới Di Động, nút tương ứng sẽ được ẩn."
+      "Website không hiển thị giá. Giá bán, khuyến mãi, tồn kho và giao hàng cần kiểm tra trực tiếp trên trang đại lý."
   },
   {
-    question: "Giá bán và tồn kho được kiểm tra ở đâu?",
+    question: "Vì sao có sản phẩm chỉ có một nút đại lý?",
     answer:
-      "Website không hiển thị giá. Giá bán, khuyến mãi, voucher, tồn kho và thời gian giao hàng cần kiểm tra trực tiếp trên trang của đại lý."
+      "Nút chỉ hiển thị khi có link sản phẩm chính xác. Đại lý nào chưa có link sẽ được ẩn để tránh dẫn sai."
   },
   {
-    question: "Tôi nên chọn sản phẩm theo tiêu chí nào?",
+    question: "Màu sắc và hình ảnh có thể khác thực tế không?",
     answer:
-      "Bạn có thể lọc theo nhu cầu như văn phòng, setup gọn, di động hoặc hiệu suất cao. Mỗi card sản phẩm cũng có mô tả ngắn, tag và màu sẵn có để so sánh nhanh."
+      "Có thể khác nhẹ theo phiên bản, màu còn hàng hoặc nội dung bán kèm. Hãy kiểm tra lại trên trang đại lý trước khi mua."
   },
   {
-    question: "Màu sắc và hình ảnh sản phẩm có phải bản cuối cùng không?",
+    question: "Bảo hành và đổi trả thế nào?",
     answer:
-      "Hình ảnh và màu sắc được dùng để tham khảo sản phẩm. Tùy chọn màu còn hàng, phiên bản bán ra và phụ kiện kèm theo cần kiểm tra lại tại đại lý trước khi mua."
-  },
-  {
-    question: "Bảo hành và đổi trả xử lý như thế nào?",
-    answer:
-      "Chính sách bảo hành, đổi trả và giao hàng do từng đại lý áp dụng. Bạn nên xem kỹ thông tin trên trang FPT Shop hoặc Thế Giới Di Động trước khi đặt mua."
+      "Bảo hành, đổi trả và giao hàng do từng đại lý áp dụng. Xem chính sách cuối cùng tại FPT Shop hoặc Thế Giới Di Động."
   }
 ];
 
