@@ -50,7 +50,7 @@ export default function RetailerButtons({ fptUrl, tgddUrl }: RetailerButtonsProp
           href={retailer.href}
           target="_blank"
           rel="noopener noreferrer"
-          className={`inline-flex min-h-14 items-center justify-between gap-3 rounded-2xl px-4 py-3 text-sm font-semibold transition hover:-translate-y-0.5 ${retailer.className}`}
+          className={`inline-flex h-16 items-center justify-between gap-3 rounded-2xl px-4 text-sm font-semibold transition hover:-translate-y-0.5 ${retailer.className}`}
         >
           <span
             className={`${
