@@ -18,12 +18,12 @@ export default function SectionHeading({
       }`}
     >
       {eyebrow ? (
-        <p className="text-sm font-bold uppercase tracking-[0.18em] text-hyper-orange">
+        <p className="text-sm font-semibold uppercase tracking-[0.18em] text-hyper-orange">
           {eyebrow}
         </p>
       ) : null}
       <h2
-        className={`text-3xl font-bold tracking-normal text-hyper-text sm:text-4xl ${
+        className={`text-3xl font-semibold tracking-normal text-hyper-text sm:text-4xl ${
           eyebrow ? "mt-3" : ""
         }`}
       >

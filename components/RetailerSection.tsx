@@ -9,7 +9,8 @@ const retailers = [
       "Phù hợp nếu bạn quen mua phụ kiện công nghệ tại FPT Shop, muốn kiểm tra sản phẩm, ưu đãi và chính sách giao hàng theo thời điểm.",
     cta: "Xem HyperWork tại FPT Shop",
     href: buildFptSearchUrl(""),
-    className: "bg-retailer-fpt text-white hover:bg-retailer-fpt-hover"
+    className:
+      "border border-retailer-fpt bg-white text-retailer-fpt hover:bg-retailer-fpt hover:text-white"
   },
   {
     title: "Thế Giới Di Động",
@@ -18,7 +19,7 @@ const retailers = [
     cta: "Xem HyperWork tại TGDĐ",
     href: buildTgddSearchUrl(""),
     className:
-      "bg-retailer-tgdd text-hyper-text hover:bg-retailer-tgdd-hover"
+      "border border-retailer-tgdd bg-white text-hyper-text hover:bg-retailer-tgdd"
   }
 ];
 
@@ -39,7 +40,7 @@ export default function RetailerSection() {
               <div className="flex h-12 w-12 items-center justify-center rounded-2xl bg-hyper-orange/10 text-hyper-orange">
                 <Store size={25} aria-hidden="true" />
               </div>
-              <h3 className="mt-5 text-2xl font-bold text-hyper-text">
+              <h3 className="mt-5 text-2xl font-semibold text-hyper-text">
                 {retailer.title}
               </h3>
               <p className="mt-3 text-base leading-7 text-hyper-muted">
@@ -49,7 +50,7 @@ export default function RetailerSection() {
                 href={retailer.href}
                 target="_blank"
                 rel="noopener noreferrer"
-                className={`mt-6 inline-flex min-h-12 items-center justify-center gap-2 rounded-2xl px-5 text-sm font-bold transition hover:-translate-y-0.5 ${retailer.className}`}
+                className={`mt-6 inline-flex min-h-12 items-center justify-center gap-2 rounded-2xl px-5 text-sm font-semibold transition hover:-translate-y-0.5 ${retailer.className}`}
               >
                 {retailer.cta}
                 <ExternalLink size={16} aria-hidden="true" />

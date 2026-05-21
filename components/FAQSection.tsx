@@ -55,7 +55,7 @@ export default function FAQSection() {
                 <button
                   type="button"
                   onClick={() => setOpenIndex(isOpen ? -1 : index)}
-                  className="flex w-full items-center justify-between gap-4 px-5 py-5 text-left text-base font-bold text-hyper-text sm:px-6"
+                  className="flex w-full items-center justify-between gap-4 px-5 py-5 text-left text-base font-semibold text-hyper-text sm:px-6"
                   aria-expanded={isOpen}
                 >
                   {faq.question}

@@ -12,7 +12,7 @@ export default function Navbar() {
   return (
     <header className="sticky top-0 z-50 border-b border-hyper-border bg-white/95 backdrop-blur">
       <nav className="section-container flex min-h-16 items-center justify-between gap-4">
-        <a href="#top" className="text-xl font-black text-hyper-text">
+        <a href="#top" className="text-xl font-semibold text-hyper-text">
           Hyper<span className="text-hyper-orange">Work</span>
         </a>
         <div className="hidden items-center gap-6 lg:flex">
@@ -28,7 +28,7 @@ export default function Navbar() {
         </div>
         <a
           href="#products"
-          className="inline-flex min-h-10 items-center justify-center gap-2 rounded-full bg-hyper-orange px-4 text-sm font-bold text-white transition hover:bg-hyper-orange-hover"
+          className="inline-flex min-h-10 items-center justify-center gap-2 rounded-full bg-hyper-orange px-4 text-sm font-semibold text-white transition hover:bg-hyper-orange-hover"
         >
           Xem sản phẩm
           <ArrowRight size={16} aria-hidden="true" />

@@ -57,7 +57,7 @@ export default function ComboSection() {
                     </div>
                   ))}
                 </div>
-                <h3 className="mt-5 text-2xl font-bold text-hyper-text">
+                <h3 className="mt-5 text-2xl font-semibold text-hyper-text">
                   {combo.title}
                 </h3>
                 <p className="mt-1 text-sm font-semibold text-hyper-muted">
@@ -68,7 +68,7 @@ export default function ComboSection() {
                 </p>
                 <a
                   href="#products"
-                  className="mt-5 inline-flex min-h-11 items-center justify-center gap-2 rounded-full bg-hyper-text px-5 text-sm font-bold text-white transition hover:-translate-y-0.5 hover:bg-hyper-orange"
+                  className="mt-5 inline-flex min-h-11 items-center justify-center gap-2 rounded-full bg-hyper-text px-5 text-sm font-semibold text-white transition hover:-translate-y-0.5 hover:bg-hyper-orange"
                 >
                   Xem sản phẩm
                   <ArrowRight size={16} aria-hidden="true" />

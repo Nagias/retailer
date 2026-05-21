@@ -67,7 +67,7 @@ export default function UseCaseSection() {
                 key={useCase.filter}
                 className="group relative overflow-hidden rounded-[28px] border border-hyper-border bg-white p-6 transition duration-300 hover:-translate-y-1 hover:border-hyper-orange/45 hover:shadow-soft"
               >
-                <div className="absolute right-5 top-5 text-5xl font-black leading-none text-hyper-soft transition duration-300 group-hover:text-hyper-orange/10">
+                <div className="absolute right-5 top-5 text-5xl font-semibold leading-none text-hyper-soft transition duration-300 group-hover:text-hyper-orange/10">
                   0{index + 1}
                 </div>
                 <div className="relative flex items-center justify-between">
@@ -77,7 +77,7 @@ export default function UseCaseSection() {
                 </div>
 
                 <div className="relative mt-8 min-h-[132px]">
-                  <h3 className="text-2xl font-black leading-tight text-hyper-text">
+                  <h3 className="text-2xl font-semibold leading-tight text-hyper-text">
                     {useCase.title}
                   </h3>
                   <p className="mt-4 text-base leading-7 text-hyper-muted">
@@ -88,7 +88,7 @@ export default function UseCaseSection() {
                 <a
                   href="#products"
                   onClick={() => handleUseCaseClick(useCase.filter)}
-                  className="mt-6 inline-flex min-h-11 w-full items-center justify-center gap-2 rounded-full border border-hyper-border px-4 text-sm font-bold text-hyper-text transition hover:border-hyper-orange hover:text-hyper-orange"
+                  className="mt-6 inline-flex min-h-11 w-full items-center justify-center gap-2 rounded-full border border-hyper-border px-4 text-sm font-semibold text-hyper-text transition hover:border-hyper-orange hover:text-hyper-orange"
                 >
                   Lọc sản phẩm
                   <ArrowDown size={16} aria-hidden="true" />

@@ -50,7 +50,7 @@ export default function CategorySection() {
           />
           <div className="hidden min-w-[210px] items-center gap-3 rounded-full border border-hyper-border bg-white px-4 py-3 shadow-sm lg:flex">
             <MousePointerClick size={20} className="text-hyper-orange" aria-hidden="true" />
-            <span className="text-sm font-bold text-hyper-text">
+            <span className="text-sm font-semibold text-hyper-text">
               Tối ưu cho thao tác hằng ngày
             </span>
           </div>
@@ -65,7 +65,7 @@ export default function CategorySection() {
                   key={strength.id}
                   className="group relative overflow-hidden rounded-[28px] border border-hyper-border bg-white p-6 shadow-sm transition duration-300 hover:-translate-y-1 hover:border-hyper-orange/45 hover:shadow-soft"
                 >
-                  <div className="absolute right-5 top-5 text-5xl font-black leading-none text-hyper-soft transition duration-300 group-hover:text-hyper-orange/10">
+                  <div className="absolute right-5 top-5 text-5xl font-semibold leading-none text-hyper-soft transition duration-300 group-hover:text-hyper-orange/10">
                     0{index + 1}
                   </div>
 
@@ -76,10 +76,10 @@ export default function CategorySection() {
                   </div>
 
                   <div className="relative mt-8">
-                    <p className="text-4xl font-black tracking-normal text-hyper-text">
+                    <p className="text-4xl font-semibold tracking-normal text-hyper-text">
                       {strength.metric}
                     </p>
-                    <h3 className="mt-3 text-lg font-bold text-hyper-text">
+                    <h3 className="mt-3 text-lg font-semibold text-hyper-text">
                       {strength.title}
                     </h3>
                     <p className="mt-2 text-sm font-medium text-hyper-muted">

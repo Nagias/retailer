@@ -61,7 +61,7 @@ export default function ProductGridSection() {
                 type="button"
                 key={filter.key}
                 onClick={() => setActiveFilter(filter.key)}
-                className={`min-h-10 rounded-full px-4 text-sm font-bold transition ${
+                className={`min-h-10 rounded-full px-4 text-sm font-semibold transition ${
                   activeFilter === filter.key
                     ? "bg-hyper-orange text-white"
                     : "border border-hyper-border bg-white text-hyper-muted hover:border-hyper-orange hover:text-hyper-orange"

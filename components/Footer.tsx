@@ -13,7 +13,7 @@ export default function Footer() {
     <footer className="bg-hyper-dark py-12 text-white">
       <div className="section-container grid gap-10 md:grid-cols-[1.2fr_1fr_1fr]">
         <div>
-          <a href="#top" className="text-2xl font-black">
+          <a href="#top" className="text-2xl font-semibold">
             Hyper<span className="text-hyper-orange">Work</span>
           </a>
           <p className="mt-4 max-w-sm text-sm leading-6 text-white/65">
@@ -21,7 +21,7 @@ export default function Footer() {
           </p>
         </div>
         <div>
-          <h3 className="text-sm font-bold uppercase tracking-[0.16em] text-white/55">
+          <h3 className="text-sm font-semibold uppercase tracking-[0.16em] text-white/55">
             Quick links
           </h3>
           <div className="mt-4 grid gap-3">
@@ -37,7 +37,7 @@ export default function Footer() {
           </div>
         </div>
         <div>
-          <h3 className="text-sm font-bold uppercase tracking-[0.16em] text-white/55">
+          <h3 className="text-sm font-semibold uppercase tracking-[0.16em] text-white/55">
             Retailer links
           </h3>
           <div className="mt-4 grid gap-3">

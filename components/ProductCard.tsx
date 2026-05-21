@@ -70,7 +70,7 @@ export default function ProductCard({ product }: ProductCardProps) {
         ) : null}
       </div>
       <div className="flex flex-1 flex-col pt-5">
-        <h3 className="text-xl font-bold text-hyper-text">{product.name}</h3>
+        <h3 className="text-xl font-semibold text-hyper-text">{product.name}</h3>
         <ul className="mt-3 flex-1 space-y-2 text-sm leading-6 text-hyper-muted">
           {product.description.map((item) => (
             <li key={item} className="flex gap-2">
