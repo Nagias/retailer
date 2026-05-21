@@ -90,7 +90,7 @@ export default function ProductCard({ product }: ProductCardProps) {
             />
           ))}
         </div>
-        <div className="mt-5">
+        <div className="mt-5 flex min-h-[64px] items-end">
           <RetailerButtons
             fptUrl={product.retailerLinks.fpt}
             tgddUrl={product.retailerLinks.tgdd}

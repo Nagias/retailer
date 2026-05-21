@@ -39,16 +39,14 @@ export default function RetailerButtons({ fptUrl, tgddUrl }: RetailerButtonsProp
   const isSingleRetailer = retailers.length === 1;
 
   return (
-    <div className={`grid gap-3 ${isSingleRetailer ? "" : "sm:grid-cols-2"}`}>
+    <div className={`grid w-full gap-3 ${isSingleRetailer ? "" : "sm:grid-cols-2"}`}>
       {retailers.map((retailer) => (
         <a
           key={retailer.label}
           href={retailer.href}
           target="_blank"
           rel="noopener noreferrer"
-          className={`inline-flex items-center justify-between gap-3 rounded-2xl px-4 py-3 text-sm font-bold transition hover:-translate-y-0.5 ${
-            isSingleRetailer ? "min-h-12" : "min-h-14"
-          } ${retailer.className}`}
+          className={`inline-flex min-h-14 items-center justify-between gap-3 rounded-2xl px-4 py-3 text-sm font-bold transition hover:-translate-y-0.5 ${retailer.className}`}
         >
           <span
             className={`text-left ${
