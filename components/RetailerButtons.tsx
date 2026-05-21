@@ -39,7 +39,11 @@ export default function RetailerButtons({ fptUrl, tgddUrl }: RetailerButtonsProp
   const isSingleRetailer = retailers.length === 1;
 
   return (
-    <div className={`grid w-full gap-3 ${isSingleRetailer ? "" : "sm:grid-cols-2"}`}>
+    <div
+      className={`grid w-full gap-3 ${
+        isSingleRetailer ? "" : "sm:grid-cols-[0.86fr_1.14fr]"
+      }`}
+    >
       {retailers.map((retailer) => (
         <a
           key={retailer.label}
