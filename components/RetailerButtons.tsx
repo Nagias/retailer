@@ -49,8 +49,10 @@ export default function RetailerButtons({ fptUrl, tgddUrl }: RetailerButtonsProp
           className={`inline-flex min-h-14 items-center justify-between gap-3 rounded-2xl px-4 py-3 text-sm font-semibold transition hover:-translate-y-0.5 ${retailer.className}`}
         >
           <span
-            className={`text-left ${
-              isSingleRetailer ? "leading-none" : "grid leading-[1.35]"
+            className={`${
+              isSingleRetailer
+                ? "flex flex-1 justify-center text-center leading-none"
+                : "grid text-left leading-[1.35]"
             }`}
           >
             {(isSingleRetailer
