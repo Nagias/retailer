@@ -3,7 +3,6 @@ import { buildFptSearchUrl, buildTgddSearchUrl } from "@/lib/retailer-links";
 const quickLinks = [
   { label: "Sản phẩm", href: "#products" },
   { label: "Điểm mạnh", href: "#strengths" },
-  { label: "Chọn theo nhu cầu", href: "#use-cases" },
   { label: "Mua ở đâu", href: "#retailers" },
   { label: "FAQ", href: "#faq" }
 ];

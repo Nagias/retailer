@@ -30,7 +30,7 @@ export default function HeroSection() {
               href="#retailers"
               className="inline-flex min-h-12 items-center justify-center gap-2 rounded-full border border-hyper-border bg-white px-6 text-base font-semibold text-hyper-text transition hover:-translate-y-0.5 hover:border-hyper-orange hover:text-hyper-orange"
             >
-              Mua tại đại lý
+              Xem nơi bán gần bạn
               <MousePointer2 size={18} aria-hidden="true" />
             </a>
           </div>

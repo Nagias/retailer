@@ -6,7 +6,6 @@ import HeroSection from "@/components/HeroSection";
 import Navbar from "@/components/Navbar";
 import ProductGridSection from "@/components/ProductGridSection";
 import RetailerSection from "@/components/RetailerSection";
-import UseCaseSection from "@/components/UseCaseSection";
 
 export default function Home() {
   return (
@@ -15,7 +14,6 @@ export default function Home() {
       <main>
         <HeroSection />
         <CategorySection />
-        <UseCaseSection />
         <ProductGridSection />
         <ComboSection />
         <RetailerSection />

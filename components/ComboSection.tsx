@@ -1,4 +1,3 @@
-import { ArrowRight } from "lucide-react";
 import { findProduct } from "@/data/hyperwork-products";
 import SectionHeading from "@/components/SectionHeading";
 
@@ -28,8 +27,8 @@ export default function ComboSection() {
     <section className="bg-white py-16 sm:py-20">
       <div className="section-container">
         <SectionHeading
-          eyebrow="GỢI Ý COMBO"
-          heading="Ghép bộ phím chuột cho góc làm việc của bạn"
+          eyebrow=""
+          heading="Combo khách hàng thường lựa chọn"
         />
         <div className="mt-10 grid gap-6 lg:grid-cols-3">
           {combos.map((combo) => {
@@ -66,14 +65,7 @@ export default function ComboSection() {
                 <p className="mt-3 text-sm leading-6 text-hyper-muted">
                   {combo.description}
                 </p>
-                <a
-                  href="#products"
-                  className="mt-5 inline-flex min-h-11 items-center justify-center gap-2 rounded-full bg-hyper-text px-5 text-sm font-semibold text-white transition hover:-translate-y-0.5 hover:bg-hyper-orange"
-                >
-                  Xem sản phẩm
-                  <ArrowRight size={16} aria-hidden="true" />
-                </a>
-                <p className="mt-4 text-xs leading-5 text-hyper-muted">
+                <p className="mt-5 text-xs leading-5 text-hyper-muted">
                   Combo là gợi ý phối sản phẩm. Việc bán theo bộ phụ thuộc từng
                   đại lý.
                 </p>
