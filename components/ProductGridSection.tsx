@@ -50,12 +50,12 @@ export default function ProductGridSection() {
   return (
     <section id="products" className="bg-hyper-soft py-16 sm:py-20">
       <div className="section-container">
-        <div className="flex flex-col gap-6 lg:flex-row lg:items-end lg:justify-between">
+        <div className="flex flex-col gap-6 lg:flex-row lg:items-start lg:justify-between">
           <SectionHeading
             eyebrow=""
             heading="Phím chuột có gu cùng HyperWork"
           />
-          <div className="flex flex-wrap gap-2">
+          <div className="flex max-w-xl flex-wrap gap-2 lg:justify-end">
             {filters.map((filter) => (
               <button
                 type="button"
